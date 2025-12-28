@@ -15,6 +15,7 @@ def main():
     print(f"Saving to{KEYSTORE_PATH}")
     with KEYSTORE_PATH.open("w") as fp:
         json.dump(encrypted_account,fp)
+        #写入文件中
         
 if __name__ == "__main__":
     main()
